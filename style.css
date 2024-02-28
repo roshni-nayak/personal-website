@@ -1,7 +1,25 @@
 h1 {
-    color: rgb(102, 0, 255);
+    color: black;
 }
 
 h2 {
     color: black;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 1000px;
+}
+
+.socials {
+    display: inline-block;
+}
+
+.headings {
+    display: inline-block;
 }
