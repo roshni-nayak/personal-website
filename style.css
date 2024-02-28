@@ -1,23 +1,38 @@
 @font-face {
     font-family : "OpenSans";
-    src         : url("./assets/font/OpenSans-Regular.ttf") format("truetype");
+    src         : url("./assets/font/open-sans/OpenSans-Regular.ttf") format("truetype");
     font-weight : 400;
     font-style  : normal;
 }
 
 @font-face {
     font-family : "OpenSans";
-    src         : url("./assets/font/OpenSans-Bold.ttf") format("truetype");
+    src         : url("./assets/font/open-sans/OpenSans-Bold.ttf") format("truetype");
     font-weight : 700;
     font-style  : normal;
 }
 
+@font-face {
+    font-family : "Poppins";
+    src         : url("./assets/font/poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight : 400;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : "Poppins";
+    src         : url("./assets/font/poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight : 700;
+    font-style  : normal;
+}
+
+
 h1 {
-    color: black;
+    color: hsl(0, 0%, 0%);
 }
 
 h2 {
-    color: black;
+    color: hsl(0, 0%, 0%);
 }
 
 body {
@@ -35,7 +50,8 @@ main {
     display: inline-block;
 }
 
-.headings {
+.title {
+    font-family: "Poppins", sans-serif;
     display: inline-block;
 }
 
