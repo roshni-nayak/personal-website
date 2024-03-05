@@ -15,8 +15,8 @@ body {
     justify-content: center;
 }
 
-main {
-    width: 50%;
+.container {
+    width: 60%;
     margin: 0 auto;
 }
 
