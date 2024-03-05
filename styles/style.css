@@ -71,3 +71,17 @@ section {
 .project-image {
     width: 100%;
 }
+
+.fa {
+    padding: 12px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+  }
+
