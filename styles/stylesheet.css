@@ -1,6 +1,7 @@
+@import "variables.css";
 
 h1 {
-    color: hsl(0, 0%, 0%);
+    color: var(--primary-colour);
     text-align:center;
 }
 
@@ -44,16 +45,9 @@ section {
     display: inline-block;
 }
 
-.profile-picture {
-    margin: 0 auto;
-    display: inline-block;
-    width: 30%;
-}
-
 .intro {
-    width: 65%;
+    width: 100%;
     display: inline-block;
-    margin-left: 10px;
     text-align: justify;
 }
 
