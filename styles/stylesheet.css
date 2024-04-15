@@ -1,8 +1,9 @@
 @import "variables.css";
 
 h1 {
-    color: var(--primary-colour);
-    text-align:center;
+    color: hsl(0, 0%, 0%);
+    text-align: right;
+    margin: 0.67em 0 0 0.2em;
 }
 
 h2 {
@@ -14,6 +15,11 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 16px;
 }
 
 .container {
@@ -30,6 +36,12 @@ body {
     list-style: none;
     display: flex;
     gap: 10px;
+}
+
+.main-nav ul li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
 }
 
 section {
@@ -49,8 +61,14 @@ section {
     width: 100%;
     display: inline-block;
     text-align: justify;
+    margin-block: 24px;
+    color: #53585C;
 }
 
+a {
+    text-decoration: none;
+    color: #53585C;
+}
 .project-list {
     display:flex;
     flex-wrap: wrap;
@@ -58,24 +76,40 @@ section {
     justify-content: space-between;
 }
 
-.project {
-    width: calc(50% - 10px);
+.project-list .project {
+    background-color: #F0F3F4;
+    padding: 24px;
+    display: flex;
 }
 
-.project-image {
-    width: 100%;
+img {
+    width: 350px;
+    margin: 24px;
 }
 
-.fa {
-    padding: 12px;
-    font-size: 14px;
-    text-align: center;
+.project-list .project-content {
+    margin: 24px;
+}
+
+.cta {
+    color: #6B7073;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 24px;
+}
+
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer ul li a {
+    background-color: transparent;
     text-decoration: none;
-  }
-
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-    border-radius: 50%;
-  }
-
+    color: black;
+}
