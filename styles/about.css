@@ -15,65 +15,57 @@
 }
 
 .title {
-    color: #195942;
-    font-size: 3rem;
+    color: #000000;
+    font-size: 48px;
+    font-weight: 800;
     margin: 0;
     padding-bottom: 24px;
 }
 
-h1.title::after {
-    background: #9EFAD9;
-    content: "";
-    width: 34%;
-    height: 27px;
-    position: absolute;
-    left: 142px;
-    bottom: 538px;
-    z-index: -1;
-}
 
 .section__text__p {
     text-align: justify;
-    font-family: "Inconsolata"; 
-    color: #195942;
+    font-family: "Figtree"; 
+    color: #000000;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 18px;
+    line-height: 1.4;
     margin-bottom: 1rem;
 }
 
 .section__pic-container img {
     display: flex;
     margin: auto 0;
-    max-width: 350px;
+    max-width: 280px;
 }
 
 /* FUN FACTS */
 
 .fun-facts-container {
     display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    background: #F8F4ED;
-    height: 270px;
-    width: 82%;
+    margin: 0 8rem;
+    flex-direction: row;
+    gap: 320px;
 }
 
 .fun-facts-title {
-    font-family: "Karla";
-    font-size: 1.5rem;
-    color: #195942;
-    padding-left: 48px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    font-family: "Sora";
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+}
+
+.title-image {
+    width: 20px;
 }
 
 .fun-facts-list {
         text-align: justify;
-        font-family: "Inconsolata"; 
-        color: #195942;
+        font-family: "Figtree"; 
+        color: #000000;
         font-weight: 400;
-        font-size: 1rem;
-        margin-bottom: 1rem;
-        padding-left: 48px;
-        padding-right: 48px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 1.4;
+        padding: 0;
 }

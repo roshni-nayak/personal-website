@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: "Karla";
+    font-family: "Sora";
     font-size: 30px;
     margin: 0 auto;
 }
@@ -17,7 +17,7 @@ nav,
 
 nav {
     justify-content: right;
-    margin-right:64px;
+    margin-right: 8rem;
     align-items: center;
     height: 13vh;
 }
@@ -25,11 +25,11 @@ nav {
 .nav-links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 a {
-    color:#195942;
+    color:#000000;
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -43,12 +43,13 @@ a:hover {
 .logo {
     position:absolute;
     left:0;
-    background: #F6C0BB;
-    font-size: 1.5rem;
-    color: #195942;
-    border: 1px solid #F6C0BB;
-    padding: 42px;
+    font: Sora;
+    font-size: 20px;
+    font-weight: 800px;
+    color: #A96DA3;
+    padding: 7rem;
 }
+
 
 .logo a:hover {
     text-decoration: none !important;
@@ -57,27 +58,14 @@ a:hover {
 /* FOOTER */
 
 footer {
-    background-color: #F6F0FE;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 18px;
     margin-top: 128px;
 }
 
 .footer-text {
-    color: #195942;
+    color: #000000;
     margin-left: 48px;
-}
-
-.footer-icons ul {
-    list-style: none;
-    display: flex;
-    gap: 24px;
-}
-
-.footer-icons ul li a {
-    background-color: transparent;
-    text-decoration: none;
-    color:#195942;
 }
