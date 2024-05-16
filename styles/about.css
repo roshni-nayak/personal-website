@@ -3,7 +3,6 @@
 
 /* PROFILE SECTION */
 
-
 #about {
     display: flex;
     padding-top: 150px;
@@ -37,6 +36,14 @@
     display: flex;
     margin: auto 0;
     max-width: 280px;
+    padding-bottom: 12px;
+}
+
+.caption {
+    font-family: "Figtree";
+    font-size: 18px;
+    color: #999999;
+    width: 280px;
 }
 
 /* FUN FACTS */
