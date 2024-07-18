@@ -4,8 +4,13 @@
 
 body {
     font-family: "Sora";
-    font-size: 30px;
+    font-size: 14px;
     margin: 0 auto;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 8px;
 }
 
 /* NAV */
@@ -16,10 +21,11 @@ nav,
 }
 
 nav {
-    justify-content: right;
-    margin-right: 8rem;
+    display: flex;
+    padding: 24px 7rem ;
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
-    height: 13vh;
 }
 
 .nav-links {
@@ -35,19 +41,15 @@ a {
 }
 
 a:hover {
-    color: grey;
+    color: #A96DA3;
     text-decoration: underline;
     text-decoration-color: rgb(181, 181, 181);
 }
 
 .logo {
-    position:absolute;
-    left:0;
-    font: Sora;
+    font-family: "Sora", semi-bold;
     font-size: 20px;
-    font-weight: 800px;
     color: #A96DA3;
-    padding: 7rem;
 }
 
 
@@ -68,4 +70,10 @@ footer {
 .footer-text {
     color: #000000;
     margin-left: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 12px 2rem;
+    }
 }
