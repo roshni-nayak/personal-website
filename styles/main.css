@@ -93,7 +93,7 @@ section {
     font-family: "Figtree";
     font-size: 16px;
     margin-top: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 .sub-text {
@@ -118,7 +118,7 @@ section {
     font-family: "Figtree";
     font-size: 16px;
     margin-top: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 .project__card1 {   
@@ -137,7 +137,7 @@ section {
     font-family: "Figtree";
     font-size: 16px;
     margin-top: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -157,7 +157,7 @@ section {
     font-family: "Figtree";
     font-size: 16px;
     margin-top: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -201,7 +201,7 @@ section {
     .project__card3__text {
         display: flex;
         flex-flow: wrap;
-        text-align: center;
+        text-align: left;
     }
 
     .project__card2 {
@@ -211,7 +211,7 @@ section {
     .project__card2__text {
         display: flex;
         flex-flow: wrap;
-        text-align: center;
+        text-align: left;
     }
 
     .project__card1 {
@@ -221,7 +221,7 @@ section {
     .project__card1__text {
         display: flex;
         flex-flow: wrap;
-        text-align: center;
+        text-align: left;
     }
 
     .project__card4 {
@@ -231,12 +231,12 @@ section {
     .project__card4__text {
         display: flex;
         flex-flow: wrap;
-        justify-content: center;
+        justify-content: left;
     }
 
     .sub-text {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 
     footer {
