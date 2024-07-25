@@ -24,6 +24,7 @@
 .case-study-text {
     display: flex-row;
     padding: 0 16rem;
+    padding-top: 64px;
     width: 100%;
 }
 
@@ -53,7 +54,7 @@
 }
 
 .project-title {
-    color: #71808E;
+    color: #575757;
     font-size: 18px;
     font-weight: 600;
 }
@@ -120,7 +121,7 @@
     }
 
     .project-title {
-        color: #71808E;
+        color: #575757;
         font-weight: 500;
         font-size: 14px;
     }
