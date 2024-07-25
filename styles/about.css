@@ -99,7 +99,7 @@
     #about {
         display: flex;
         margin: 0 2rem;
-        padding-top: 24px;
+        padding-top: 48px;
     }
 
     .section__text {
@@ -159,5 +159,14 @@
 
     footer {
         margin-top: 50px;
+    }
+
+    .footer-text {
+        font-family: 'Figtree';
+        color: #000000;
+        margin: 24px;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 14px;
     }
 }

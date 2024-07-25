@@ -173,6 +173,10 @@ section {
         padding: 0;
     }
 
+    .section__text {
+        padding-top: 48px;
+    }
+
     .title {
         font-size: 30px;
     }
@@ -241,5 +245,14 @@ section {
 
     footer {
         margin-top: 50px;
+    }
+
+    .footer-text {
+        font-family: 'Figtree';
+        color: #000000;
+        margin: 24px;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 14px;
     }
 }
