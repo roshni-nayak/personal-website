@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 8px;
 }
 
@@ -22,16 +22,17 @@ nav,
 
 nav {
     display: flex;
-    padding: 24px 7rem ;
+    padding: 8px 16rem ;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-links {
+    font-family: 'Figtree';
     gap: 2rem;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 a {
@@ -48,13 +49,13 @@ a:hover {
 
 .logo {
     font-family: "Sora", semi-bold;
-    font-size: 20px;
+    font-size: 18px;
     color: #A96DA3;
 }
 
-
 .logo a:hover {
-    text-decoration: none !important;
+    text-decoration: underline;
+    text-decoration-color: rgb(181, 181, 181);
 }
 
 /* FOOTER */
@@ -63,14 +64,18 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    margin-top: 128px;
+    margin-top: 64px;
 }
 
 .footer-text {
+    font-family: 'Figtree';
     color: #000000;
-    margin-left: 48px;
+    margin: 24px;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 18px;
 }
+
 
 @media only screen and (max-width: 768px) {
     nav {

@@ -5,9 +5,8 @@
 
 #about {
     display: flex;
-    padding-top: 150px;
-    height: 72vh;
-    margin: 0 8rem;
+    padding-top: 48px;
+    margin: 0 16rem;
     box-sizing: border-box;
     min-height: fit-content;
     gap: 100px;
@@ -17,47 +16,66 @@
     color: #000000;
     font-size: 48px;
     font-weight: 800;
-    margin: 0;
+    margin: 0px;
     padding-bottom: 24px;
 }
 
+.about-description {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 64px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 16px;
+    max-width: 700px;
+
+}
 
 .section__text__p {
-    text-align: justify;
     font-family: "Figtree"; 
     color: #000000;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.4;
-    margin-bottom: 1rem;
+}
+
+.section__pic-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
 }
 
 .section__pic-container img {
     display: flex;
     margin: auto 0;
-    max-width: 280px;
-    padding-bottom: 12px;
+    max-width: 205px;
+    padding-bottom: 16px;
 }
 
 .caption {
     font-family: "Figtree";
-    font-size: 14px;
+    font-size: 12px;
     color: #999999;
-    width: 280px;
+    width: 250px;
 }
 
 /* FUN FACTS */
 
 .fun-facts-container {
     display: flex;
-    margin: 0 8rem;
     flex-direction: row;
-    gap: 320px;
+    gap: 20%;
 }
 
 .fun-facts-title {
+    padding-top: 4px;
     font-family: "Sora";
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 800;
     color: #000000;
 }
@@ -75,4 +93,71 @@
         font-size: 18px;
         line-height: 1.4;
         padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #about {
+        display: flex;
+        margin: 0 2rem;
+        padding-top: 24px;
+    }
+
+    .section__text {
+        display: grid;
+    }
+
+    .title {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-description {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+
+    .about-text {
+        align-content: center;
+    }
+
+    .section__text__p {
+        text-align: center;
+    }
+
+    .fun-facts-title {
+        font-size: 28px;
+    }
+
+    .title-image {
+        width: 7%;
+    }
+
+    .fun-facts-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+    }
+
+    .fun-facts-title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .fun-facts-list {
+        text-align: center;
+    }
+
+    .section__pic-container {
+        align-self: center;
+    }
+
+    .caption {
+        text-align: center;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
 }

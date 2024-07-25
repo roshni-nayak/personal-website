@@ -16,12 +16,15 @@ section {
 
 .content {
     display: flex;
-    margin: 0 7rem;
-    gap: 100px;
+    flex-direction: column;
+    margin: 0 16rem;
+    gap: 48px;
 }
 
 #profile {
     display: flex;
+    padding-top: 64px;
+    padding-bottom: 48px;
 }
 
 .section__pic-container {
@@ -32,28 +35,30 @@ section {
 }
 
 .section__text {
-    text-align: justify;
+    text-align: center;
+    width: 100%;
 }
 
 .title {
     color:#000000;
-    font-size: 40px;
-    text-align: justify;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
 }
 
 .section__text__p {
-    text-align: justify;
+    font-size: 24px; 
+    text-align: center;
     font-family: "Figtree"; 
     color: #000000;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.6;
     margin-bottom: 1rem;
 }
 
 
 .title-image {
-    width: 28px;
+    width: 42px;
 }
 
 /* PROJECTS SECTION */
@@ -61,72 +66,15 @@ section {
 .section__projects-container {
     display: flex;
     flex-direction: column;
-    /* background: #F8F4ED; */
-}
-
-.project-title {
-    font-size: 36px;
-    color: #A96DA3;
-    display: inline-block;
-    padding-bottom: 16px;
 }
 
 .project__cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 64px;
+    gap: 5%;
+    row-gap: 48px;
     align-items: center;
-}
-
-.project__card1 {   
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-.project__card1__image {
-    background: #FEF0EF;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-radius: 24px;
-    padding-top: 48px;
-}
-
-.project__card1__image img {
-    margin-top: 24px;
-    width: 160px;
-}
-
-.project__card1__text {
-    margin-top: 16px;
-}
-
-.project__card2 {   
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.project__card2__image {
-    background: #EFEDFC;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-radius: 24px;
-}
-
-.project__card2__image img {
-    margin-top: 16px;
-    margin-bottom: 16px;
-    margin-left: 16px;
-    width: 400px;
-}
-
-.project__card2__text {
-    margin-top: 16px;
 }
 
 .project__card3 {   
@@ -134,49 +82,77 @@ section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-}
-
-.project__card3__image {
-    background: #DFF5F6;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-radius: 24px;
+    width: 47.5%;
 }
 
 .project__card3__image img {
-    width: 400px;
-    padding-top: 16px;
-    padding-left: 16px;
-    padding-right: 24px;
+    width: 100%;
 }
 
 .project__card3__text {
+    font-family: "Figtree";
+    font-size: 16px;
     margin-top: 16px;
 }
+
+.sub-text {
+    font-family: "Figtree"; 
+    font-size: 14px;
+    color: #5C656C;
+}
+
+.project__card2 {   
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 47.5%;
+}
+
+.project__card2__image img {
+    width: 100%;
+}
+
+.project__card2__text {
+    font-family: "Figtree";
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.project__card1 {   
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 47.5%;
+}
+
+.project__card1__image img {
+    width: 100%;
+}
+
+.project__card1__text {
+    font-family: "Figtree";
+    font-size: 16px;
+    margin-top: 16px;
+}
+
 
 .project__card4 {   
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-}
-
-.project__card4__image {
-    background: #F1FCE8;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-radius: 24px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    width: 47.5%;
 }
 
 .project__card4__image img {
-    width: 300px;
+    width: 100%;
 }
 
 .project__card4__text {
+    font-family: "Figtree";
+    font-size: 16px;
     margin-top: 16px;
 }
 
@@ -188,12 +164,74 @@ section {
         gap: 30px;
     }
 
+    #profile {
+        display: flex;
+        padding: 0;
+    }
+
     .title {
         font-size: 30px;
     }
 
+    .title-image {
+        width: 10%;
+    }
+
     .section__text__p {
         font-size: 16px;
+    }
+
+    .project__cards {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        align-items: center;
+    }
+
+    .project__card3 {
+        width: 100%;
+    }
+
+    .project__card3__text {
+        display: flex;
+        flex-flow: wrap;
+        text-align: center;
+    }
+
+    .project__card2 {
+        width: 100%;
+    }
+
+    .project__card2__text {
+        display: flex;
+        flex-flow: wrap;
+        text-align: center;
+    }
+
+    .project__card1 {
+        width: 100%;
+    }
+
+    .project__card1__text {
+        display: flex;
+        flex-flow: wrap;
+        text-align: center;
+    }
+
+    .project__card4 {
+        width: 100%;
+    }
+
+    .project__card4__text {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .sub-text {
+        width: 100%;
+        text-align: center;
     }
 
     footer {
