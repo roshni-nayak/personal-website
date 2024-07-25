@@ -35,7 +35,7 @@
 .case-study-h2 {
     text-align: justify;
     font-family: "Figtree";
-    color: #71808E;
+    color: #000000;
     font-weight: 400;
     font-size: 20px;
     line-height: 1.4;
@@ -53,6 +53,7 @@
 }
 
 .project-title {
+    color: #71808E;
     font-size: 18px;
     font-weight: 600;
 }
@@ -82,4 +83,73 @@
     font-size: 18px;
     line-height: 1.6;
     padding-bottom: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-nav {
+        padding: 12px 2rem;
+    }
+
+    .case-study-text {
+        padding: 12px 2rem;
+    }
+
+    .title {
+        font-size: 18px;
+        gap: 8px;
+    }
+
+    .title-image {
+        width: 16px;
+    }
+
+    .case-study-h2 {
+        text-align: left;
+        font-family: "Figtree";
+        color: #000000;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .project-details {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        line-height: 1.6;
+    }
+
+    .project-title {
+        color: #71808E;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .project-content {
+        font-size: 14px;
+    }
+
+    .contributions-title {
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .list {
+        font-size: 16px;
+    }
+
+    .nda {
+        font-family: "Figtree";
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+        padding-bottom: 24px;
+    }
+
+
+
+    footer {
+        margin-top: 50px;
+    }
 }

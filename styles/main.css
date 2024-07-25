@@ -24,7 +24,7 @@ section {
 #profile {
     display: flex;
     padding-top: 64px;
-    padding-bottom: 48px;
+    padding-bottom: 64px;
 }
 
 .section__pic-container {

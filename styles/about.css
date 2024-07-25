@@ -123,11 +123,7 @@
     }
 
     .section__text__p {
-        text-align: center;
-    }
-
-    .fun-facts-title {
-        font-size: 28px;
+        text-align: left;
     }
 
     .title-image {
@@ -146,7 +142,7 @@
     }
 
     .fun-facts-list {
-        text-align: center;
+        text-align: left;
     }
 
     .section__pic-container {
