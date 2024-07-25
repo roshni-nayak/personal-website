@@ -165,7 +165,7 @@ section {
     .content {
         margin: 0 2rem;
         flex-direction: column;
-        gap: 30px;
+        gap: 48px;
     }
 
     #profile {
@@ -183,6 +183,7 @@ section {
 
     .section__text__p {
         font-size: 16px;
+        font-weight: 500;
     }
 
     .project__cards {
