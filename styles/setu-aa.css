@@ -23,9 +23,8 @@
 
 .case-study-text {
     display: flex-row;
-    padding: 0 16rem;
+    padding: 48px 160px;
     padding-top: 64px;
-    width: 100%;
 }
 
 .contributions-title {
